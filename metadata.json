@@ -1,0 +1,6 @@
+{
+  "name": "Invoice Processing Tool (IPT)",
+  "description": "Automated UAE Tax Invoice extraction, validation, VAT compliance audit, and Zoho Books / Tally Prime export tool.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

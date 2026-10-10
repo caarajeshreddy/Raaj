@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "user-admin-default",
+      "email": "pdc-subcom@icaiauh.org",
+      "name": "Senior Tax Administrator",
+      "passwordHash": "$2b$10$TGFe3CCM6PrYnTOufmxYTOgsYXwg9Af7mFPW1yAcXnW5FtByl.Lr.",
+      "role": "admin",
+      "provider": "google",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face",
+      "createdAt": "2026-10-10T08:03:24.785Z",
+      "lastLoginAt": "2026-10-10T08:09:59.876Z"
+    }
+  ],
+  "invoices": [],
+  "auditLogs": [
+    {
+      "userId": "user-admin-default",
+      "userName": "Senior Tax Administrator",
+      "userRole": "admin",
+      "action": "login",
+      "details": "User signed in via Google / Gmail account (pdc-subcom@icaiauh.org)",
+      "id": "log-fkfhhtp",
+      "timestamp": "2026-10-10T08:09:59.882Z"
+    },
+    {
+      "id": "log-1",
+      "userId": "user-admin-default",
+      "userName": "Senior Tax Administrator",
+      "userRole": "admin",
+      "action": "login",
+      "details": "System initialized with default Tax Administrator",
+      "timestamp": "2026-10-10T08:03:24.786Z"
+    }
+  ],
+  "settings": {
+    "organizationName": "UAE Tax Operations Group",
+    "defaultCurrency": "AED",
+    "ftaTaxPeriod": "Q4-2026"
+  }
+}
